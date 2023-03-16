@@ -42,7 +42,7 @@ body {
 }
 
 .release {
-    background-color: #623242;
+    background-color: #0f0f0f;
     padding: 10px;
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -58,7 +58,53 @@ body {
 }
 
 .release-img {
-    width: 100%;
-    height: auto;
-    margin: 0%;
+    background-color: #0f0f0f;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+h3 {
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    background-color: #623242;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
