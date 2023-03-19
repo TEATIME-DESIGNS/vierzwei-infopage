@@ -10,23 +10,23 @@ body {
 }
 
 .line {
-    background-color: #623242;
+    background-color: #363636;
     padding: 10px;
 }
 
 .line2 {
-    background-color: #623242;
+    background-color: #363636;
     padding: 10px;
 }
 
 .line3 {
     background-color: #000000;
     padding: 10px;
-    background: linear-gradient(#623242, #0f0f0f);
+    background: linear-gradient(#363636, #0f0f0f);
 }
 
 .header {
-    background-color: #623242;
+    background-color: #363636;
     padding: 10px;
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -107,7 +107,7 @@ h4 {
 }
 
 .footer {
-    background-color: #623242;
+    background-color: #363636;
     padding: 10px;
     color: rgb(255, 255, 255);
     position: fixed;
@@ -133,7 +133,7 @@ h4 {
     width: clamp(20rem, calc(20rem + 2vw), 22rem);
     overflow: hidden;
     box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
-    border-radius: 1em;
+    /* border-radius: 1em; */
     background: #424242;
     /* background: linear-gradient(to right, #FFFFFF, #ECE9E6); */
 
@@ -176,4 +176,102 @@ h4 {
 
 .user__info>small {
     color: #666;
+}
+
+h5 {
+    color: #fff;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+
+        background-color: #424242;
+        border-radius: 5px;
+    }
+
+h6 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+    
+    
+}
+
+.container-1 {
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    max-width: 1200px;
+    margin-block: 2rem;
+    gap: 0rem;
+    margin-inline: auto;
+
+    background-color: #424242;
+    border-radius: 5px;
+}
+
+.container-1-2 {
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    max-width: 1200px;
+    margin-block: 2rem;
+    gap: 20rem;
+    margin-inline: auto;
+
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #363636;
+    border: none;
+    color: white;
+    padding: 5px 121px;
+    font-size: 16px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    transition: 0.5s;
+
+
+}
+
+button:hover {
+    background-color: #af2727;
+    /* transition: 0.5s; */
+}
+
+button:active {
+    background-color: #5e5252;
+    transition: 0.5s;
+}
+
+h6-2 {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #000000;
+    border-radius: 5px;
 }
